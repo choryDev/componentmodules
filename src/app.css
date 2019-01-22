@@ -6,3 +6,25 @@
   width: 300px;
   height: 300px
 }
+
+.companyCard{
+  height: 110px;
+  width: 520px;
+}
+.maincard{
+  height: 250px;
+  width: 400px;
+}
+.maincardadd{
+  height: 250px;
+  width: 400px;
+}
+.departmentcard{
+  width: 200px;
+  height: 250px;
+}
+
+.dialog{
+  width: 700px;
+  height: 250px;
+}

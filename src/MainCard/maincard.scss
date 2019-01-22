@@ -1,0 +1,21 @@
+.maincard{
+  box-shadow: 1px 1px 1px 1px gray;
+  .mainCardBar{
+    height: 2%;
+    width: 100%;
+  }
+  .mainCardContent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+    margin-left: 5%;
+    span:nth-child(1){
+      font-size: 200%;
+    }
+    span:nth-child(2){
+      margin-left: 5%;
+      font-size: 80%;
+      color: gray
+    }
+  }
+}

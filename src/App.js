@@ -5,8 +5,13 @@ import Avata from './Avata/AvataComponent'
 import Select from './Select/SelectComponent'
 import Option from './Option/OptionComponent'
 import OptionCard from './OptionCard/OptionCardComponent'
-import svgpractice from './svgpractice.svg'
-import svg_sample from './svg_sample.svg'
+import CompanyOption from './CompanyOption/CompanyOptionComponent'
+import MainCard from './MainCard/MainCardComponent'
+import MainCardAdd from './MainCardAdd/MainCardAddComponent'
+import DepartmentCard from './DepartmentCard/DepartmentCardComponent'
+import DepartmentCardAdd from './DepartmentCardAdd/DepartmentCardAddComponent'
+import Dialog from './Dialog/DialogComponent'
+
 import "./app.css";
 
 class App extends Component {
@@ -33,9 +38,13 @@ class App extends Component {
           })}
         </Select>
         <OptionCard avatarchildren="딱딱" title="철수" subtitle="안뇽zzz" date="11/22"></OptionCard>
-        <img className="svg" src={svgpractice} alt="" />
-        <img className="svg" src={svg_sample} alt="" />
-
+        <CompanyOption className="companyCard"
+          title="CompanyA" subtitle="is inviting you to the company" btntitle="Accept"></CompanyOption>
+        <MainCard className="maincard" title="CompanyA" subtitle="부제 이러쿵 저러쿵"> </MainCard>
+        <MainCardAdd className="maincard" color="fontred"></MainCardAdd>
+        <DepartmentCard className="departmentcard" title="dev"></DepartmentCard>
+        <DepartmentCardAdd className="departmentcard" color="fontgray"></DepartmentCardAdd>
+        <Dialog className="dialog" title="철수" subtitle="안뇽zzz" btntitle="SAVE"></Dialog>
       </div >
     );
   }

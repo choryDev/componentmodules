@@ -1,0 +1,33 @@
+.departmentcard{
+  box-shadow: 1px 1px 1px 1px gray;
+  .departmentcardMain{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    span{
+      margin-bottom: 20px;
+      margin-left: 10px;
+      color: white; 
+      font-size: 30px;    
+    }
+  }
+  .departmentCardIcon{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    color:white;
+    i{
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 25px;
+    }
+  }
+}
+
+.iconColorOn{
+  color: red
+}
+.iconColorOff{
+  color: gray
+}

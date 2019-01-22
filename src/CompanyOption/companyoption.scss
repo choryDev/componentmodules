@@ -1,0 +1,46 @@
+@import '../color';
+
+.companycard{
+  display: flex;
+  width: 500px;
+  background-color: white;
+  padding: {
+    left: 20px;
+    top: 2px;
+    bottom: 10px;
+  }
+  border-radius: 10px;
+  border: 2px solid gray;
+  .companycard-title{
+    display: flex;
+    flex-direction: column;
+    flex: 7;
+    span:nth-child(1){
+      margin-top: auto;
+      font-size: 25px;
+    }
+    span:nth-child(2){
+      margin-top: 2px;
+      margin-bottom: auto;
+      font-weight: bold;
+      color: gray;
+    }
+  }
+  .companycard-button-area{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    flex:3;
+    i{
+      margin-top: 2px;
+      margin-right: 3.5px;
+      font-size: 20px;
+    }
+    Button{
+      font-size: 15px;
+      margin-inline-end: auto;
+      width: 80px;
+      height:60px;
+    }
+  }
+}
